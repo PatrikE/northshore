@@ -6,11 +6,34 @@ body {
 body p {
 	align-self: center;
 	}
+
+
+<!-- changes appearances of link attributes -->
+#nolinkstyle a:link {
+	text-decoration: none;
+}
+#nolinkstyle a:visited {
+	text-decoration: none;
+}	
+#nolinkstyle a:hover {
+	text-decoration: none;
+}
+#nolinkstyle a:active {
+	text-decoration: none;
+}
+.col-sm-8 a {
+	color: black; !important
+}
+<!-- changes appearances of link attributes -->
+
+
 header {
   padding: 20px 0;
 }
 
 header .row,
+
+
 footer .row {
   display: flex;
   align-items: center;
@@ -20,6 +43,7 @@ header h1 {
   font-weight: 700;
   margin: 0;
   font-size: 48px;
+  font-color: black;
 }
 
 header nav {
