@@ -107,10 +107,10 @@ section .row img {
   margin: 0 0 30px;
 }
 
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-  : center;
+#footer {
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
 }
 
 footer .col-sm-8 {
