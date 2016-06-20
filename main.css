@@ -63,10 +63,12 @@ header p {
   background-image: url('img/Hero.jpg');
   background-image: url('img/Northshore.PNG');
   background-size: cover;
+  background-repeat: no-repeat;
   color: #ffffff;
-  height: 500px;
+  height: 1024px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
+
 
 .jumbotron h2 {
   font-size: 60px;
