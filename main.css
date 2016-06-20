@@ -132,6 +132,7 @@ footer li img {
   width: 36px;
   height: 36px;
   cursor: pointer;
+  display:inline;
 }
 footer li img:hover {
 	color: red;
